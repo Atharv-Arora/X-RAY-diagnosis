@@ -7,13 +7,14 @@ dependencies:
   - nbconvert=5.5
   - widgetnbextension=3.5
   - python=3.5
-  - numpy=1.8.2
+  - numpy
   - torch=0.3.1
   - cv2=4.0
   - sklearn
   - torchvision=0.2.0
   - pip
   - pip:
+    - numpy
     - sys
     - smtplib
     - os
